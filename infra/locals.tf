@@ -1,6 +1,5 @@
 locals {
     environment = "dev"
-    account_id = "" #completar con account id
-    vpc_cidr = 
-    vpc_name = 
+    vpc_cidr = "10.1.0.0/16"
+    vpc_name = "${local.environment}-vpc"
 }
